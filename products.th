@@ -7,11 +7,11 @@
     <title>Products</title>
 </head>
 <body>
-    {data.test}
+    {data.name}
     <main>
-        \{#for product in data.products}
+        {#for product in data.products}
             <div>
-                <h1>{product}</h1>
+                <h1>{data.age}</h1>
             </div>
         {/for}
     </main>
